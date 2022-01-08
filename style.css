@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#main-container{
+    min-width: 100vw;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color:  #3d3d5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-holder{
+    width: 80%;
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+/*Опишем стили для цветовой коробки */
+
+.colored-box{
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+    background-color: aqua;
+    flex-basis: 20px;
+    flex-grow: 1;
+}
