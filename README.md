@@ -1,2 +1,2 @@
 # color_antistress
-Simple antristress color box grid
+Simple antistress color box grid
